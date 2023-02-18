@@ -1,0 +1,15 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+{% include "head.html" %}
+
+<body>
+  <div class="environment">
+    You are viewing the website in a {{ site.environment }} environment. This is NOT live.
+  </div>
+  {{ content | safe }}
+
+  {% include "scripts.html" %}
+</body>
+
+</html>
