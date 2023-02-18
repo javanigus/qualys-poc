@@ -4,9 +4,12 @@
 {% include "head.html" %}
 
 <body>
+{% if site.environment !== "PRODUCTION" %}
   <div class="environment">
     You are viewing the website in a {{ site.environment }} environment. This is NOT live.
   </div>
+{% endif %}
+
   {{ content | safe }}
 
   {% include "scripts.html" %}
