@@ -87,10 +87,18 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.environment {
+.environment-banner {
     text-align: center;
     padding: 1em;
-    background: yellow;
+}
+.development .environment-banner {
+  background: yellow;
+}
+.staging .environment-banner {
+  background: #00eaff;
+}
+.environment {
+  text-transform: uppercase;
 }
 /* ==========================================================================
    Helper classes
