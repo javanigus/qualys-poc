@@ -105,6 +105,14 @@ textarea {
   max-width: 700px;
   padding: 0 2em;
 }
+table, td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 1em;
+}
+a {
+  color: blue;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
