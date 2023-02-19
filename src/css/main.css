@@ -100,6 +100,11 @@ textarea {
 .environment {
   text-transform: uppercase;
 }
+.wrapper {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 0 2em;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

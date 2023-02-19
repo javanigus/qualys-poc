@@ -3,13 +3,6 @@
     display: block;
     max-width: 50%;
 }
-.new-home {
-    text-align: center;
-    padding: 0 1em;
-}
-.author {
-    text-align: center;
-}
 @media screen and (min-width: 480px) {
     .qualys-shield {
         max-width: 250px;
